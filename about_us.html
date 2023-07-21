@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="about_us.html">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500;600;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url("img/anastase-maragos-4dlhin0ghOk-unsplash.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: white;
+        }
+
+        .aboutus {
+            /* border: 3px solid red; */
+            display: block;
+            text-align: center;
+            /* padding-left: 111px; */
+            margin: auto;
+            margin-top:15px ;
+            width: 33%;
+            box-sizing: border-box;
+        }
+        .aboutus:hover{
+            color: burlywood;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .logo {
+            /* border: 2px solid green; */
+            display: inline-block;
+            /* position: absolute; */
+            margin: -39px 2px;
+            padding: 4px;
+        }
+
+        .logo img {
+
+            width: 260px;
+            animation: blinker 2s linear infinite  ;
+        }
+
+        .lef {
+            text-align: center;
+        }
+
+        .content {
+            /* border: 2px solid burlywood; */
+            font-family: "Sofia", sans-serif;
+            color: rgb(254, 251, 255);
+            margin: 14px;
+            margin-top: 30px;
+            padding-left: 200px;
+            cursor: pointer;
+        }
+        .heading{
+            /* border: 2px solid red; */
+            display: inline-block;
+        }
+        .heading:hover{
+            color:rgb(73, 230, 196);
+            /* text-transform: lowercase; */
+            text-shadow:5px 2px 0px rgb(255, 0, 140);
+        }
+        .arrow{
+            font-size: 30px;
+        }
+        
+        .about {
+            /* border: 1px solid whitesmoke; */
+            width: 59%;
+            /* height: 300px; */
+        }
+        .mid{
+            /* text-decoration:none; */
+            list-style-type: none;
+            font-family: 'Baloo Bhai 2', cursive;
+            font-size:x-large;
+            height: 40px;
+            /* border: 2px solid yellow; */
+            margin: 7px;
+        }
+        .mid:hover{
+            color: grey;
+            text-transform: uppercase;
+        }
+        .blk {
+            animation: blinker 2s linear infinite;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="aboutus">AKS Fitness Camp</h1>
+        <div class="logo">
+            <img src="img/gym-g17b5631cc_1280.png">
+            <div class="lef">Aks Fitness</div>
+        </div>
+    </header>
+    <div class="content">
+        <h2 class="heading">About Us <span class="arrow">&dzigrarr;</span></h2>
+        <ul class="about">
+            <li class="mid">&sext; &nbsp; &nbsp; &nbsp; Based in Jagatpura, Jaipur</li>
+
+            <li class="mid">&sext; &nbsp; &nbsp; &nbsp; Over 6 Years of Experience</li>
+
+            <li class="mid">&sext; &nbsp; &nbsp; &nbsp; Team of 8 Instructors + Dieticians</li>
+
+            <li class="mid">&sext; &nbsp; &nbsp; &nbsp; We Conduct LIVE Classes on ZOOM App
+                <span class="blk">( Not Recorded videos )</span>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

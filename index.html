@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aks Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-image: url("img/man-gf6b2922b6_1920.jpg");
+            color: white;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+
+        }
+
+        .left {
+            display: inline-block;
+            margin: 2px;
+            padding: 2px;
+            position: absolute;
+            left: 7px;
+            top: 7px;
+        }
+
+        .mid {
+            display: block;
+            width: 52%;
+            margin: 29px auto;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 7px;
+            top: 7px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 30px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 13px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: gray;
+            text-decoration: underline;
+
+        }
+        .left img {
+            width: 260px;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            margin: 11px 4px;
+            padding: 4px 14px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 19px;
+        }
+
+        .btn:hover {
+            background-color: grey;
+        }
+
+        .container {
+            display: block;
+            position: absolute;
+            top: 180px;
+            left: 119px;
+            width: 33%;
+            text-align: center;
+        }
+
+        .form-group input {
+            font-size: 15px;
+            text-align: center;
+            width: 510px;
+            padding: 6px;
+            display: block;
+            margin: 11px auto;
+            border-radius: 8px;
+            border: 2px solid black;
+        }
+
+        .container button {
+            display: block;
+            width: 123%;
+            margin: 15px auto;
+
+        }
+
+        .mov {
+            background-color: rgb(56, 56, 56);
+            border-bottom: 5px solid black;
+            display: block;
+            width: 585px;
+            margin: -120px 363px;
+        }
+
+        .move {
+            background-color: rgb(56, 56, 56);
+            /* border-bottom: 2px solid black; */
+            /* display: block; */
+            width: 585px;
+            margin: -120px 363px;
+        }
+
+        .bgimage {
+            display: block;
+            margin-top: 1153px;
+            /* position: absolute; */
+            margin-left: -7px;
+            width:101%;
+        }
+        
+        /* .one { */
+            /* position: absolute; */
+            /* display: inline-block; */
+            /* border: 1px solid red; */
+            /* margin-top: 1045px; */
+            /* padding: 2px; */
+            /* height: 100px; */
+            /* width: 106px; */
+            /* filter: invert(100%); */
+        /* } */
+
+        /* .second { */
+            /* display: inline-block; */
+            /* margin-top: 0px; */
+            /* padding: 2px; */
+            /* height: 102px; */
+            /* width: 54px; */
+            /* filter: invert(100%) */
+        /* } */
+
+        #kartik {
+            position: absolute;
+            margin-top: -1041px;
+            margin-left: 1018px;
+
+        }
+        .container .btn a{
+            color: white;
+            text-decoration: none;
+        }
+        .down{
+            display: block;
+            width: 1297px;
+            margin: 660px -6px;
+        }
+        .down li{
+            display: inline-block;
+            font-size: 30px;
+            margin: 2px;
+            padding: 2px;
+        }
+        .pro{
+            margin: 11px 4px;
+            padding: 4px 14px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 19px;
+        }
+        .product{
+            margin: 11px 200px;
+            margin-right: 0px;
+            padding: 4px 14px;
+            color: white;
+            background-color: black;
+            border: 2px solid grey;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 19px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/gym-g17b5631cc_1280.png" alt="">
+            <div class="ll">Aks Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">Call Us</a> </li>
+                <li><a href="about_us.html"> About US</a></li>
+                <li><a href="#"> Fitness Calculator</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of skit now</h1>
+        <!-- form action ka exact use nhi samaj aaya -->
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Phone number">
+            </div>
+        </form>
+            <button class="btn"><a href="submit.html"> Submit</a> </button>
+    </div>
+    <marquee class="mov" behavior="scroll" direction="right" scrollamount="20" onmouseover="this.stop()"
+        onmouseout="this.start()">WELCOME To
+    </marquee>
+    <marquee class="move" behavior="scroll" direction="right" scrollamount="20" onmouseover="this.stop()"
+        onmouseout="this.start()">AKS Fitness GYM</marquee>
+    <div class="down">
+        <ul class="below">
+            <button class="product">
+                <!-- <a href="product.html"> -->
+                 Products</a> </button>
+            <button class="pro"><a href="membership.html"> Membership</a> </button>
+            <button class="pro"><a href="machine.html"> Machines</a> </button>
+            <button class="pro"><a href="<iframe width="750" height="422" src="https://www.youtube.com/embed/-SLP1BF7KBQ" title="Why fitness is more important than weight | Leanne Spencer | TEDxWandsworth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"importance of fitness</a> </button>
+        </ul>
+    </div>
+
+    <img src="img/bg.jpg" alt="Error loading image" class="bgimage">
+    
+    <iframe id="kartik" width="560" height="315" src="https://www.youtube.com/embed/UUwmlaDT-hM"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+</body>
+
+</html>
